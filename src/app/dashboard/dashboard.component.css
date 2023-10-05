@@ -1,0 +1,9 @@
+.rameczka{
+    border: black;
+    border-style: groove;
+    margin: 1em;
+}
+.flexik{
+    display: flex;
+    flex-wrap: wrap;
+}

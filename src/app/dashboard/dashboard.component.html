@@ -1,0 +1,6 @@
+<select #val (change)='setPiesieUrl(val.value)' class="form-select form-select-lg mb-3">
+    <option disabled selected>Wybierz Rase</option>
+    <option *ngFor="let rasa of psieRasyTablica" [value]="rasa.breed_name" >
+        {{rasa.breed_name | uppercase}}
+    </option>
+  </select>
